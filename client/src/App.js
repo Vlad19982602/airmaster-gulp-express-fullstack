@@ -1,14 +1,14 @@
 import './App.css';
+import MyButton from './components/UI/button/MyButton.js';
 
 function App() {
   return (
     <div className="app">
-      1
-      2
-      3
-      4
-      5
-      6
+      
+      <MyButton />
+      <hr></hr>
+      
+      <MyButton />
     </div>
   );
 }
